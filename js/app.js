@@ -447,7 +447,7 @@ d3.select("#resetButton").on("click", function() {
     modeler.reset();
 });
         
-d3.xml("https://raw.githubusercontent.com/mhkeller/pan-zoom-test/master/imgs/mock.svg", "image/svg+xml", function(xml) {
+d3.xml("http://mhkeller.github.io/pan-zoom-test/imgs/mock.svg", "image/svg+xml", function(xml) {
     addItem(xml.documentElement);
 });
         
